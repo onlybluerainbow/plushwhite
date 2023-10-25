@@ -1,0 +1,17 @@
+
+.light-blue-flat-button{
+     color: white;
+     background-color: red;
+     border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.light-blue-flat-button:active{
+    background-color: white;
+    color: red;
+    border: 2px;
+    border-style: solid;
+    border-color: red;
+}
