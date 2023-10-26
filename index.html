@@ -17,7 +17,6 @@
 
 <body style="
 padding-top: 150px;
-padding-left: 20px;
 ">
     <div style="
         position: fixed;
@@ -29,20 +28,31 @@ padding-left: 20px;
         <center><p class="heads">Plush-White</p></center>
         <center><font color="red">丝滑毛茸茸 抱抱草莓熊</font></center>
     </div>
-    <div style="display: flex; flex-direction: row; flex-wrap: wrap; position: absolute;">
-        <div style="flex: 1;"><img class="ProductPic" src="ProjectIMG/仿真小叫猫.png"></div>
-        <div style="flex: 1;"><img class="ProductPic" src="ProjectIMG/吃瓜恐龙.png"></div>
-        <div style="flex: 1;"><img class="ProductPic" src="ProjectIMG/土拨鼠.png"></div>
-        <div style="flex: 1;"><img class="ProductPic" src="ProjectIMG/奶龙捏捏乐.png"></div>
-        <div style="flex: 1;"><img class="ProductPic" src="ProjectIMG/恶魔库儿.png"></div>
-        <div style="flex: 1;"><img class="ProductPic" src="ProjectIMG/水豚挂件.png"></div>
-        <div style="flex: 1;"><img class="ProductPic" src="ProjectIMG/草莓熊.png"></div>
-        <div style="flex: 1;"><img class="ProductPic" src="ProjectIMG/萝卜兔.png"></div>
-        <div style="flex: 1;"><img class="ProductPic" src="ProjectIMG/趴趴小飞龙.png"></div>
+    <div style="
+            display: grid; 
+            left: 0px; 
+            right: 0px; 
+            margin-left: 10%; 
+            margin-right: 10%; 
+            place-items: center; 
+            grid-template-columns: 1fr 1fr; 
+            position: absolute;
+            column-gap: 10px;
+            row-gap: 10px
+            ;">
+        <div><img class="ProductPic" src="ProjectIMG/仿真小叫猫.png"></div>
+        <div><img class="ProductPic" src="ProjectIMG/吃瓜恐龙.png"></div>
+        <div><img class="ProductPic" src="ProjectIMG/土拨鼠.png"></div>
+        <div><img class="ProductPic" src="ProjectIMG/奶龙捏捏乐.png"></div>
+        <div><img class="ProductPic" src="ProjectIMG/恶魔库儿.png"></div>
+        <div><img class="ProductPic" src="ProjectIMG/水豚挂件.png"></div>
+        <div><img class="ProductPic" src="ProjectIMG/草莓熊.png"></div>
+        <div><img class="ProductPic" src="ProjectIMG/萝卜兔.png"></div>
+        <div><img class="ProductPic" src="ProjectIMG/趴趴小飞龙.png"></div>
     </div>
     <br>
     <br>
     <br>
-    <a href="contacts.html"><center><button class="light-blue-flat-button">联系方式</button></center></a>
+    <a style="position: fixed; left: 50%; bottom: 50px; width: 100px; margin-left:-50px;" href="contacts.html"><center><button class="light-blue-flat-button">联系方式</button></center></a>
 </body>
 </html>
