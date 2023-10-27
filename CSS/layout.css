@@ -1,4 +1,5 @@
 .product-grid-container{
+	display: flex;
 	background-color: #000;
 	border: 1px solid #000;
 	grid-gap: 1px;
